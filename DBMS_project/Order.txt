@@ -1,0 +1,11 @@
+SQL> SELECT * FROM Orders;
+
+  ORDER_ID CUSTOMER_ID ORDER_DAT TOTAL_AMOUNT                                   
+---------- ----------- --------- ------------                                   
+       401         101 06-OCT-26         2499                                   
+       402         102 06-OCT-26         1599                                   
+       403         103 06-OCT-26          999                                   
+       404         104 06-OCT-26         3499                                   
+       405         105 06-OCT-26         1999                                   
+
+SQL> SPOOL OFF
