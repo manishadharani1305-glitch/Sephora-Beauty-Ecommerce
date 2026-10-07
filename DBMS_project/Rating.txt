@@ -1,0 +1,48 @@
+PRODUCT RATING MANAGEMENT SYSTEM
+
+RATING TABLE DATA
+-----------------
+
+RATING_ID    PRODUCT_ID    CUSTOMER_ID    RATING    RATING_DATE
+
+1            101           101            5         01-10-2026
+2            102           102            4         02-10-2026
+3            103           103            5         02-10-2026
+4            104           104            4         03-10-2026
+5            105           105            5         03-10-2026
+
+
+AVERAGE RATING BY PRODUCT
+-------------------------
+
+PRODUCT_ID    AVERAGE_RATING
+
+101           5
+102           4
+103           5
+104           4
+105           5
+
+
+PRODUCTS WITH AVERAGE RATING >= 4
+----------------------------------
+
+PRODUCT_ID    AVERAGE_RATING
+
+101           5
+103           5
+105           5
+102           4
+104           4
+
+
+FINAL PRODUCT RATING REPORT
+---------------------------
+
+PRODUCT_ID    PRODUCT_NAME    TOTAL_RATINGS    AVERAGE_RATING    HIGHEST_RATING    LOWEST_RATING
+
+101           Lipstick        1                5                 5                 5
+102           Foundation      1                4                 4                 4
+103           Face Serum      1                5                 5                 5
+104           Moisturizer     1                4                 4                 4
+105           Perfume         1                5                 5                 5
