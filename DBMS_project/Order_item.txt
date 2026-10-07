@@ -1,0 +1,11 @@
+SQL> SELECT * FROM Order_item;
+
+ORDER_ITEM_ID   ORDER_ID PRODUCT_ID   QUANTITY UNIT_PRICE TOTAL_PRICE           
+------------- ---------- ---------- ---------- ---------- -----------           
+          601        401        101          1        899         899           
+          602        402        102          1       1299        1299           
+          603        403        103          1        799         799           
+          604        404        104          2        599        1198           
+          605        405        105          1       1499        1499           
+
+SQL> SPOOL OFF

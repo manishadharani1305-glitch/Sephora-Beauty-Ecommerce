@@ -1,0 +1,44 @@
+SQL> SELECT * FROM Review;
+
+ REVIEW_ID PRODUCT_ID CUSTOMER_ID     RATING                                    
+---------- ---------- ----------- ----------                                    
+REVIEW_TEXT                                                                     
+--------------------------------------------------------------------------------
+REVIEW_DA                                                                       
+---------                                                                       
+       701        101         101          5                                    
+Excellent lipstick quality                                                      
+06-OCT-26                                                                       
+                                                                                
+       702        102         102          4                                    
+Good foundation coverage                                                        
+06-OCT-26                                                                       
+
+ REVIEW_ID PRODUCT_ID CUSTOMER_ID     RATING                                    
+---------- ---------- ----------- ----------                                    
+REVIEW_TEXT                                                                     
+--------------------------------------------------------------------------------
+REVIEW_DA                                                                       
+---------                                                                       
+                                                                                
+       703        103         103          5                                    
+Very effective face serum                                                       
+06-OCT-26                                                                       
+                                                                                
+       704        104         104          4                                    
+Moisturizer is good                                                             
+
+ REVIEW_ID PRODUCT_ID CUSTOMER_ID     RATING                                    
+---------- ---------- ----------- ----------                                    
+REVIEW_TEXT                                                                     
+--------------------------------------------------------------------------------
+REVIEW_DA                                                                       
+---------                                                                       
+06-OCT-26                                                                       
+                                                                                
+       705        105         105          5                                    
+Amazing fragrance                                                               
+06-OCT-26                                                                       
+                                                                                
+
+SQL> SPOOL OFF

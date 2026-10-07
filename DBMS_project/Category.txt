@@ -1,0 +1,9 @@
+SQL> SELECT * FROM Category;
+
+CATEGORY_ID CATEGORY_NAME                                                       
+----------- --------------------------------------------------                  
+          1 Makeup                                                              
+          2 Skincare                                                            
+          3 Fragrance                                                           
+
+SQL> SPOOL OFF
